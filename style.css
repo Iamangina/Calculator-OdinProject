@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(204, 227, 104);
+}
+.calculator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    border: solid 5px rgb(189, 71, 71);
+    box-shadow: 8px 8px 0px rgb(189, 71, 71);
+    width: 450px;
+    height: auto;
+    background: linear-gradient(to bottom, rgb(255, 171, 171), rgb(254, 116, 116))
+}
+.result{
+    white-space: nowrap;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 60px;
+    padding-right: 10px;
+    width: 400px;
+    height: 100px;
+    margin: 25px;
+    border: solid 5px rgb(189, 71, 71);
+    border-radius: 20px 20px 0px 0px;
+    background-color: rgb(225, 231, 198);
+    box-shadow: inset 5px 5px 0px rgb(183, 189, 155);
+    color: rgba(83, 29, 29, 0.489);
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 400px;
+    height: auto;
+    margin-bottom: 25px;
+}
+.btn{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    border: solid 2px rgb(136, 49, 49);
+    background-color: rgb(225, 231, 198);
+    margin: 5px;
+    color: rgb(136, 49, 49);
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+}
+#clear:hover{
+    background-color: rgb(255, 83, 83);
+}
+#undo:hover{
+    background-color: rgb(255, 83, 83);
+}
+#modulo:hover{
+    background-color: rgb(216, 227, 165);
+}
+#divide:hover{
+    background-color: rgb(216, 227, 165);
+}
+#multiply:hover{
+    background-color: rgb(216, 227, 165);
+}
+#subtract:hover{
+    background-color: rgb(216, 227, 165);
+}
+#add:hover{
+    background-color: rgb(216, 227, 165);
+}
+.btn:hover{
+    top: 5px;
+    box-shadow: 0px 5px 0px #bd4747;
+    background-color:  rgb(255, 203, 203);
+    cursor: pointer;
+}
+#result{
+    width: 185px;
+}
+#result:hover{
+    background-color: rgb(204, 227, 104);
+}
